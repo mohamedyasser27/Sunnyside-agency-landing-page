@@ -215,11 +215,10 @@ header .content {
   }
 }
 
-@media only screen and (max-width: 357px) {
+@media only screen and (max-width: 550px) {
   header {
     background-image: url("../images/mobile/image-header.jpg");
-    background-size: contain;
-  }
+    background-size: 100%;  }
 }
 
 @media only screen and (max-width: 365px) {
