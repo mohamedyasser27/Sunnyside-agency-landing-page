@@ -10,5 +10,3 @@ let observer = new ResizeObserver((entries) => {
   }
 });
 observer.observe(document.body);
-
-console.log("Great design makes you memorable. We deliver".length);
