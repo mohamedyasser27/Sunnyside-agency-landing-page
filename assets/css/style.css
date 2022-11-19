@@ -2,7 +2,7 @@
   --Soft_red: #fe7867;
   --Yellow: #fad400;
   --Dark_desaturated_cyan: #25564b; /*graphic design text*/
-  --light__Cyan:#90D4C5;/*footer*/
+  --light__Cyan: #90d4c5; /*footer*/
   --Dark_blue: #19536b; /*photography text*/
   --Dark_moderate_cyan: #458c7e;
   --Very_dark_desaturated_blue: #23303e;
@@ -53,11 +53,10 @@ h5,
 h6 {
   margin: 0px;
 }
-/*
-    font-family: 'Barlow', sans-serif; 600
-    font-family: 'Fraunces', serif;700 900
-    
-    */
+
+ul {
+  list-style-type: none;
+}
 
 .resetBtnStyle {
   background-color: transparent;
@@ -112,11 +111,6 @@ header .content {
   position: absolute;
   top: -20px;
   right: 0px;
-}
-
-.main-nav__list,
-.side-nav__list {
-  list-style-type: none;
 }
 
 .main-nav__item {
@@ -374,8 +368,8 @@ header .content {
   height: 100%;
 }
 
-footer{
-  background-color:var(--light__Cyan);
+footer {
+  background-color: var(--light__Cyan);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -383,28 +377,24 @@ footer{
   padding-block: 50px;
 }
 
-footer ul {
-  list-style-type: none;
-}
-
 footer li {
   display: inline-block;
   margin-left: 25px;
 }
-footer li a{
+footer li a {
   color: var(--Dark_desaturated_cyan);
   font-size: clamp(1rem, 0.8571rem + 0.8036vw, 1.5rem);
 }
 
-footer li svg{
-color: var(--Dark_desaturated_cyan);
-fill: currentColor;
+footer li svg {
+  color: var(--Dark_desaturated_cyan);
+  fill: currentColor;
 }
-.social-media__item{
+.social-media__item {
   margin-top: 45px;
 }
 
-footer li a:hover{
+footer li a:hover {
   color: var(--White);
 }
 @media only screen and (max-width: 850px) {
