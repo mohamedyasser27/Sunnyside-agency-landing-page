@@ -2,8 +2,9 @@
   --Soft_red: #fe7867;
   --Yellow: #fad400;
   --Dark_desaturated_cyan: #25564b; /*graphic design text*/
+  --light__Cyan:#90D4C5;/*footer*/
   --Dark_blue: #19536b; /*photography text*/
-  --Dark_moderate_cyan: #458c7e; /*footer*/
+  --Dark_moderate_cyan: #458c7e;
   --Very_dark_desaturated_blue: #23303e;
   --Very_dark_grayish_blue: #5a636c;
   --Dark_grayish_blue: #818498;
@@ -373,9 +374,39 @@ header .content {
   height: 100%;
 }
 
-.gallery-mobile-image {
+footer{
+  background-color:var(--light__Cyan);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 45px;
+  padding-block: 50px;
 }
 
+footer ul {
+  list-style-type: none;
+}
+
+footer li {
+  display: inline-block;
+  margin-left: 25px;
+}
+footer li a{
+  color: var(--Dark_desaturated_cyan);
+  font-size: clamp(1rem, 0.8571rem + 0.8036vw, 1.5rem);
+}
+
+footer li svg{
+color: var(--Dark_desaturated_cyan);
+fill: currentColor;
+}
+.social-media__item{
+  margin-top: 45px;
+}
+
+footer li a:hover{
+  color: var(--White);
+}
 @media only screen and (max-width: 850px) {
   .main-nav {
     display: none;
