@@ -35,7 +35,7 @@ a {
 }
 
 body {
-  font-family: "Barlow", sans-serif;
+  font-family: monospace, sans-serif;
   font-size: 18px;
   height: 100%;
   scroll-behavior: smooth;
